@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-05-26T00:26:56.126979",
+  "model": "Rolling Average + Seasonal",
+  "accuracy_note": "Prophet upgrade in v2.0",
+  "historical_days": 90,
+  "forecast_days": 7,
+  "predictions": [
+    {
+      "date": "2026-05-26",
+      "day": "Tuesday",
+      "predicted_mw": 10217.2,
+      "risk_level": "CRITICAL",
+      "outage_prob": 0.95,
+      "is_weekend": false,
+      "is_summer": false
+    },
+    {
+      "date": "2026-05-27",
+      "day": "Wednesday",
+      "predicted_mw": 10217.2,
+      "risk_level": "CRITICAL",
+      "outage_prob": 0.95,
+      "is_weekend": false,
+      "is_summer": false
+    },
+    {
+      "date": "2026-05-28",
+      "day": "Thursday",
+      "predicted_mw": 10217.2,
+      "risk_level": "CRITICAL",
+      "outage_prob": 0.95,
+      "is_weekend": false,
+      "is_summer": false
+    },
+    {
+      "date": "2026-05-29",
+      "day": "Friday",
+      "predicted_mw": 8991.1,
+      "risk_level": "CRITICAL",
+      "outage_prob": 0.95,
+      "is_weekend": true,
+      "is_summer": false
+    },
+    {
+      "date": "2026-05-30",
+      "day": "Saturday",
+      "predicted_mw": 8991.1,
+      "risk_level": "CRITICAL",
+      "outage_prob": 0.95,
+      "is_weekend": true,
+      "is_summer": false
+    },
+    {
+      "date": "2026-05-31",
+      "day": "Sunday",
+      "predicted_mw": 8991.1,
+      "risk_level": "CRITICAL",
+      "outage_prob": 0.95,
+      "is_weekend": true,
+      "is_summer": false
+    },
+    {
+      "date": "2026-06-01",
+      "day": "Monday",
+      "predicted_mw": 13793.2,
+      "risk_level": "CRITICAL",
+      "outage_prob": 0.95,
+      "is_weekend": false,
+      "is_summer": true
+    }
+  ],
+  "summary": {
+    "avg_consumption": 10263.2,
+    "peak_day": "2026-04-23",
+    "total_outages": 164
+  }
+}
